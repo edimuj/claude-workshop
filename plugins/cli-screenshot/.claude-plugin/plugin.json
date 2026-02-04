@@ -1,0 +1,23 @@
+{
+  "name": "cli-screenshot",
+  "version": "1.0.0",
+  "description": "Generate beautiful terminal screenshots for documentation and READMEs. Creates polished macOS-style terminal mockups with syntax highlighting.",
+  "author": {
+    "name": "edimuj"
+  },
+  "homepage": "https://github.com/edimuj/claude-workshop",
+  "repository": "https://github.com/edimuj/claude-workshop",
+  "license": "Apache-2.0",
+  "keywords": [
+    "screenshot",
+    "terminal",
+    "cli",
+    "documentation",
+    "readme",
+    "mockup"
+  ],
+  "dependencies": {
+    "python3": ">=3.6",
+    "shot-scraper": ">=1.0"
+  }
+}

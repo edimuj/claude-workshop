@@ -1,0 +1,15 @@
+{
+  "name": "claude-workshop",
+  "description": "A collection of useful Claude Code plugins and tools",
+  "author": "edimuj",
+  "repository": "https://github.com/edimuj/claude-workshop",
+  "plugins": [
+    {
+      "name": "cli-screenshot",
+      "path": "plugins/cli-screenshot",
+      "description": "Generate beautiful terminal screenshots for documentation and READMEs",
+      "version": "1.0.0",
+      "keywords": ["screenshot", "terminal", "cli", "documentation", "readme"]
+    }
+  ]
+}
