@@ -15,10 +15,5 @@
     "documentation",
     "readme",
     "mockup"
-  ],
-  "setup": "scripts/setup.sh",
-  "dependencies": {
-    "python3": ">=3.6",
-    "shot-scraper": ">=1.0"
-  }
+  ]
 }
