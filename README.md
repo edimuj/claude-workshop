@@ -26,7 +26,7 @@ Add the marketplace to Claude Code:
 Install a plugin:
 
 ```bash
-/plugin install cli-screenshot
+/plugin install cli-screenshot@claude-workshop
 ```
 
 ## Plugins
@@ -65,7 +65,7 @@ plugins/my-plugin/
 └── README.md             # Documentation
 ```
 
-Add your plugin to `marketplace.json` to make it available.
+Add your plugin to `.claude-plugin/marketplace.json` to make it available.
 
 ## Related Projects
 
@@ -84,7 +84,7 @@ Contributions are welcome! Feel free to:
 
 1. Fork the repository
 2. Create a plugin in `plugins/your-plugin/`
-3. Add it to `marketplace.json`
+3. Add it to `.claude-plugin/marketplace.json`
 4. Submit a pull request
 
 ## License
