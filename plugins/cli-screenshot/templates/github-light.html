@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Screenshot</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: transparent;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        .terminal {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            max-width: 720px;
+            margin: 0 auto;
+            border: 1px solid #d0d7de;
+        }
+        .terminal-header {
+            background: #f6f8fa;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-bottom: 1px solid #d0d7de;
+        }
+        .terminal-button { width: 12px; height: 12px; border-radius: 50%; }
+        .terminal-button.red { background: #ff5f56; }
+        .terminal-button.yellow { background: #ffbd2e; }
+        .terminal-button.green { background: #27c93f; }
+        .terminal-title {
+            flex: 1;
+            text-align: center;
+            color: #57606a;
+            font-size: 13px;
+            margin-right: 52px;
+        }
+        .terminal-content {
+            padding: 20px;
+            font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            color: #24292f;
+        }
+        /* GitHub Light theme colors */
+        .prompt { color: #0550ae; }
+        .command { color: #24292f; }
+        .dim { color: #6e7781; }
+        .green { color: #116329; }
+        .yellow { color: #9a6700; }
+        .red { color: #cf222e; }
+        .cyan { color: #0a3069; }
+        .magenta { color: #8250df; }
+        .blue { color: #0550ae; }
+        .orange { color: #bc4c00; }
+        .bold { font-weight: 600; }
+        .mb-1 { margin-bottom: 8px; }
+        .mb-2 { margin-bottom: 16px; }
+        .mt-1 { margin-top: 8px; }
+        .mt-2 { margin-top: 16px; }
+        .indent { padding-left: 16px; }
+    </style>
+</head>
+<body>
+<div class="terminal">
+    <div class="terminal-header">
+        <div class="terminal-button red"></div>
+        <div class="terminal-button yellow"></div>
+        <div class="terminal-button green"></div>
+        <div class="terminal-title">{{TERMINAL_TITLE}}</div>
+    </div>
+    <div class="terminal-content">
+        {{CONTENT}}
+    </div>
+</div>
+</body>
+</html>
