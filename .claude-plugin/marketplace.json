@@ -5,13 +5,10 @@
     "name": "edimuj"
   },
   "repository": "https://github.com/edimuj/claude-workshop",
-  "metadata": {
-    "pluginRoot": "./plugins"
-  },
   "plugins": [
     {
       "name": "cli-screenshot",
-      "source": "cli-screenshot",
+      "source": "./plugins/cli-screenshot",
       "description": "Generate beautiful terminal screenshots for documentation and READMEs"
     }
   ]
