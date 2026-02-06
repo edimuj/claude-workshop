@@ -31,42 +31,10 @@ Install a plugin:
 
 ## Plugins
 
-### cli-screenshot
-
-Generate beautiful terminal screenshots for documentation and READMEs.
-
-```bash
-/cli-screenshot:screenshot Show a git status with modified files
-```
-
-**Features:**
-
-- macOS-style terminal window with traffic light buttons
-- Multiple themes: Tokyo Night, Dracula, Nord, GitHub Light
-- Syntax highlighting for commands and output
-- Transparent PNG background
-
-**Requirements:** Python 3.6+ (shot-scraper installed automatically)
-
-[View documentation](plugins/cli-screenshot/README.md)
-
-### smart-terminal-setup
-
-Smart terminal configuration for Claude Code. Configures Shift+Enter for multi-line input in terminals not supported by the built-in `/terminal-setup`.
-
-```bash
-/smart-terminal-setup:setup
-```
-
-**Supported terminals:**
-
-- Tabby (Windows) — via AutoHotkey v2
-- Hyper — via `.hyper.js` config
-- Generic guidance for other terminals
-
-Also includes standalone setup scripts for use outside Claude Code (`setup.sh` and `setup.ps1`).
-
-[View documentation](plugins/smart-terminal-setup/README.md)
+| Plugin | Description |
+|--------|-------------|
+| [cli-screenshot](plugins/cli-screenshot/README.md) | Generate polished macOS-style terminal screenshots with syntax highlighting and multiple themes |
+| [smart-terminal-setup](plugins/smart-terminal-setup/README.md) | Configure Shift+Enter for multi-line input in terminals not supported by the built-in `/terminal-setup` |
 
 ## Plugin Development
 
