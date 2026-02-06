@@ -1,0 +1,20 @@
+{
+  "name": "smart-terminal-setup",
+  "version": "1.0.0",
+  "description": "Smart terminal configuration for Claude Code. Extends /terminal-setup to support terminals like Tabby, Hyper, and others that Claude Code doesn't configure natively.",
+  "author": {
+    "name": "edimuj"
+  },
+  "homepage": "https://github.com/edimuj/claude-workshop",
+  "repository": "https://github.com/edimuj/claude-workshop",
+  "license": "Apache-2.0",
+  "keywords": [
+    "terminal",
+    "setup",
+    "shift-enter",
+    "newline",
+    "tabby",
+    "autohotkey",
+    "keybinding"
+  ]
+}

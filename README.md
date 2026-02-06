@@ -50,6 +50,24 @@ Generate beautiful terminal screenshots for documentation and READMEs.
 
 [View documentation](plugins/cli-screenshot/README.md)
 
+### smart-terminal-setup
+
+Smart terminal configuration for Claude Code. Configures Shift+Enter for multi-line input in terminals not supported by the built-in `/terminal-setup`.
+
+```bash
+/smart-terminal-setup:setup
+```
+
+**Supported terminals:**
+
+- Tabby (Windows) — via AutoHotkey v2
+- Hyper — via `.hyper.js` config
+- Generic guidance for other terminals
+
+Also includes standalone setup scripts for use outside Claude Code (`setup.sh` and `setup.ps1`).
+
+[View documentation](plugins/smart-terminal-setup/README.md)
+
 ## Plugin Development
 
 Create your own plugins with this structure:

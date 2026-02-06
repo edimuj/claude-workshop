@@ -10,6 +10,11 @@
       "name": "cli-screenshot",
       "source": "./plugins/cli-screenshot",
       "description": "Generate beautiful terminal screenshots for documentation and READMEs"
+    },
+    {
+      "name": "smart-terminal-setup",
+      "source": "./plugins/smart-terminal-setup",
+      "description": "Smart terminal configuration for Claude Code — Shift+Enter support for Tabby and other unsupported terminals"
     }
   ]
 }
